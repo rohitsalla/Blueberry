@@ -1,14 +1,7 @@
 mkdir -p ~/.streamlit/
-echo [$(date)]: "START"
-echo [$(date)]: "creating env with python 3.8 version" 
-conda create --prefix ./env python=3.8 -y
-echo [$(date)]: "activating the environment" 
-source activate ./env
-echo [$(date)]: "installing the dev requirements" 
-pip install -r requirements.txt
 echo "\
 [general]\n\
-email = \"your-email@domain.com\"\n\
+email = \"sallarohit1011@gmail.com\"\n\
 " > ~/.streamlit/credentials.toml
 echo "\
 [server]\n\
